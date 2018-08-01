@@ -5,6 +5,6 @@
 		<param name="tf_ref_frame_id" value="/vicon_world" type="str" />
 	</node>
 
-	<node pkg="tf" type="static_transform_publisher" name="vicon_static_transform" args="0.130 -0.127 0.030 -1.5707 0.0 0.0 world vicon_world 1000" />
+	<node pkg="tf" type="static_transform_publisher" name="vicon_static_transform" args="0.127279 -0.127279 0.029375 -1.57079 0.0 0.0 world vicon_world 1000" />
 
 </launch>
